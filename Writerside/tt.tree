@@ -4,12 +4,10 @@
 
 <instance-profile id="tt"
                  name="TDD"
-                 start-page="starter-topic.md">
+                 start-page="저자의-글-md.md">
 
-    <toc-element topic="starter-topic.md"/>
-    <toc-element topic="Tutorial.md"/>
-    <toc-element topic="Starter.md"/>
-    <toc-element topic="How-to.md"/>
-    <toc-element topic="Reference.md"/>
     <toc-element topic="저자의-글-md.md"/>
+    <toc-element topic="1부-Money-예제.md">
+        <toc-element topic="1장-다중-통화를-지원하는-Money-객체.md"/>
+    </toc-element>
 </instance-profile>
