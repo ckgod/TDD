@@ -10,5 +10,7 @@
     <toc-element topic="1부-Money-예제.md">
         <toc-element topic="1장-다중-통화를-지원하는-Money-객체.md"/>
         <toc-element topic="2장-타락한-객체.md"/>
+        <toc-element topic="3장-모두를-위한-평등.md"/>
+        <toc-element topic="4장-프라이버시.md"/>
     </toc-element>
 </instance-profile>
