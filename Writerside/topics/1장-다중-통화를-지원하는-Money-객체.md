@@ -120,38 +120,35 @@ val amount = 5 * 2
 
 <procedure title="중복 제거하기">
     <step>
-        <p>amount 초기화 코드 times() 메서드 안으로 옮기기
-            <code-block lang="kotlin">
-                class Dollar(amount: Int) {
-                    val amount = 0
-                    fun times(multiplier: Int) {
-                        amount = 5 * 2
-                    }
+        <p>amount 초기화 코드 times() 메서드 안으로 옮기기</p>
+        <code-block lang="kotlin">
+            class Dollar(amount: Int) {
+                val amount = 0
+                fun times(multiplier: Int) {
+                    amount = 5 * 2
                 }
-            </code-block>
-        </p>
+            }
+        </code-block>
     </step>
     <step>
-        <p>5는 생성자에서 넘어오는 값이니 amount 값에 넣기
-            <code-block lang="kotlin">
-                class Dollar(var amount: Int) {
-                    fun times(multiplier: Int) {
-                        amount *= 2
-                    }
+        <p>5는 생성자에서 넘어오는 값이니 amount 값에 넣기</p>
+        <code-block lang="kotlin">
+            class Dollar(var amount: Int) {
+                fun times(multiplier: Int) {
+                    amount *= 2
                 }
-            </code-block>
-        </p>
+            }
+        </code-block>
     </step>
     <step>
-        <p>2는 인자 multiplier의 값이므로 대체
-            <code-block lang="kotlin">
-                class Dollar(var amount: Int) {
-                    fun times(multiplier: Int) {
-                        amount *= multiplier
-                    }
+        <p>2는 인자 multiplier의 값이므로 대체</p>
+        <code-block lang="kotlin">
+            class Dollar(var amount: Int) {
+                fun times(multiplier: Int) {
+                    amount *= multiplier
                 }
-            </code-block>
-        </p>
+            }
+        </code-block>
     </step>
 </procedure>
 
