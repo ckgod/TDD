@@ -10,4 +10,8 @@
         <description>Created after removal of "5장. 솔직히 말하자면" from TDD</description>
         <accepts>5장-솔직히-말하자면.html</accepts>
     </rule>
+    <rule id="3a5273d4">
+        <description>Created after removal of "19장. 테이블 차리기" from TDD</description>
+        <accepts>19장-테이블-차리기.html</accepts>
+    </rule>
 </rules>

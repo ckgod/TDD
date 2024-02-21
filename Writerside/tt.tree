@@ -20,5 +20,14 @@
         <toc-element topic="10장-흥미로운-시간.md"/>
         <toc-element topic="11장-모든-악의-근원.md"/>
         <toc-element topic="12장-드디어-더하기.md"/>
+        <toc-element topic="13장-진짜로-만들기.md"/>
+        <toc-element topic="14장-바꾸기.md"/>
+        <toc-element topic="15장-서로-다른-통화-더하기.md"/>
+        <toc-element topic="16장-드디어-추상화.md"/>
+    </toc-element>
+    <toc-element topic="2부-xUnit-예시.md">
+        <toc-element topic="18장-xUnit으로-가는-첫걸음.md">
+        </toc-element>
+        <toc-element topic="19장-테이블-차리기.md"/>
     </toc-element>
 </instance-profile>
